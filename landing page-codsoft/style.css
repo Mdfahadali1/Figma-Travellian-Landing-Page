@@ -46,6 +46,12 @@ height: 85px;
     font-size: 1.3rem;
 }
 
+@media screen and (max-width:841px) {
+    ,navDetails{
+        display: none;
+    }
+}
+
 .headList{
     position: relative;
     padding-top: 13px;
@@ -103,7 +109,18 @@ color: var(--white-color);
 .hamburger{
     color: var(--white-color);
     height: 2.2rem;
+
+   
 }
+@media screen and (max-width:841px) {
+    .hamburger{
+    transform: scale(1);
+
+    }
+
+
+}
+
 .heroSection{
 width: 100vw;
 max-width: 1880px;
