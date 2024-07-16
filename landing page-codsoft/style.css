@@ -1,0 +1,120 @@
+*,
+::after,
+::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+text-decoration: none;
+}
+:root{
+    --coral-color :#FF7757;
+    --white-color: #ffffff;
+    --blach-dark-: #172432;
+    --gray-shade: #767E86;
+    --light-gray: #F5F6F7;
+    --gold-shade: #FFC107;
+}
+
+#wrapper{
+    width: 100vw;
+    height: 100%;
+    overflow-x: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+
+.navHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+/* background: var(--gold-shade); */
+padding: 0 3.7rem;
+height: 4rem;
+color: var(--white-color);
+height: 85px;
+}
+
+.logo{
+    height: 2rem;
+    display: block;
+}
+
+.navDetails{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.3rem;
+}
+
+.headList{
+    position: relative;
+    padding-top: 13px;
+    padding-bottom: 10px;
+}
+.navList{
+color: var(--white-color);
+
+}
+
+.underLine {
+    position: absolute;
+    transform: scale(0);
+    height: 3px;
+    width: 100%;
+    background-color: var(--coral-color);
+    transition: all 300ms linear;
+    bottom: 0%;
+}
+
+.headList:hover .underLine {
+    transform: scale(1);
+}
+.navBtns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 4px;
+}
+
+.navbtn-One{
+font-size: 1.3rem;
+}
+
+ .navbtn-two{
+font-size: 1.3rem;
+border: none;
+background-color: var(--coral-color);
+border-radius: 4px;
+padding: 5px 10px;
+color: var(--white-color);
+}
+
+.logo,.navbtn-One:hover{
+    cursor: pointer;
+    color: var(--coral-color);
+    transition: 200ms linear;
+}
+.navbtn-two:hover{
+    cursor: pointer;
+   color: var(--blach-dark-);
+   transition: 200ms linear;
+}
+.hamburger{
+    color: var(--white-color);
+    height: 2.2rem;
+}
+.heroSection{
+width: 100vw;
+max-width: 1880px;
+height: 100vh;
+position: relative;
+background-image: url(./assests/Hero\ Section-image.png);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: top;
+background-size: cover;
+overflow-x:hidden ;
+margin-top: -5.66rem;
+z-index: -2;
+}
