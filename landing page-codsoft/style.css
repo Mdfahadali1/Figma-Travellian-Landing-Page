@@ -33,6 +33,7 @@ padding: 0 3.7rem;
 height: 4rem;
 color: var(--white-color);
 height: 85px;
+    z-index:10;
 }
 
 .logo{
@@ -96,6 +97,20 @@ padding: 5px 10px;
 color: var(--white-color);
 }
 
+@media screen and (max-width:520px) {
+    .navbtn-One,.navbtn-two{
+        display: none;
+    }
+
+    .navHead{
+        padding: 0 1rem;
+    }
+  .textDiv-one{
+    font-size: 2.3rem;
+  }
+}
+
+
 .logo,.navbtn-One:hover{
     cursor: pointer;
     color: var(--coral-color);
@@ -109,16 +124,12 @@ color: var(--white-color);
 .hamburger{
     color: var(--white-color);
     height: 2.2rem;
-
-   
+transform: scale(0);
 }
 @media screen and (max-width:841px) {
     .hamburger{
     transform: scale(1);
-
     }
-
-
 }
 
 .heroSection{
@@ -126,12 +137,140 @@ width: 100vw;
 max-width: 1880px;
 height: 100vh;
 position: relative;
-background-image: url(./assests/Hero\ Section-image.png);
-background-attachment: fixed;
-background-repeat: no-repeat;
-background-position: top;
-background-size: cover;
-overflow-x:hidden ;
-margin-top: -5.66rem;
-z-index: -2;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: space-between;
 }
+}
+.heroimage{
+    width: 100%;
+    height: 100%;
+    margin-top: -10.66rem;
+    z-index: -1;
+    object-fit: cover;
+    object-position: top;
+}
+.textDiv{
+  display: flex;
+  flex-direction: column;
+width: 60vw;
+height: 50vh;
+    left: 1.8rem;
+   position: absolute;
+    top: 6rem;
+}
+
+.textDiv-one{
+
+    font-size: 3.9rem;
+    color: var(--white-color);
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width:642px) {
+    .textDiv{
+        position: absolute;
+        top: 1rem;
+        /* margin-bottom:1rem ; */
+    }
+  
+}
+
+@media screen and (max-width:413px) {
+    .textDiv-one{
+        font-size: 3rem;
+    }
+}
+.textDiv-two{
+
+    color: var(--light-gray);
+    font-weight: 100;
+}
+.bookingHeadDiv{
+    display: flex;
+    position: absolute;
+    top: 24rem;
+   max-width: 900px;
+   width: 100%;
+}
+@media screen and (max-width:671px) {
+    .bookingHeadDiv{
+        /* margin-top: 2rem; */
+        flex-direction: column;
+      /* max-height: 569px; */
+    }
+    .Right-booknow{
+      width: 100%;
+      border-bottom-left-radius: 16px;
+      border-top-right-radius: 0 !important;
+
+    }
+    .leftbookingpart{
+      max-height: 569px;
+
+    }
+}
+.leftbookingpart{
+    margin: 0 auto;
+    display: flex;
+   flex-wrap: wrap;
+    gap: 2rem;
+    color: var(--blach-dark-);
+    background-color: var(--white-color);
+    padding: 1.5rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media screen and (min-width:671px) {
+    
+}
+
+.Right-booknow{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--coral-color);
+    padding: 1rem 3.5rem;
+color: var(--white-color);
+border-top-right-radius: 16px;
+border-bottom-right-radius: 16px;
+
+}
+
+.Right-booknow:hover{
+    background-color: var(--gold-shade);
+    cursor: pointer;
+}
+
+.Right-booknow p{
+
+font-size: 2.8rem;
+}
+.Right-booknow img{
+    margin-left: 5px;
+}
+.destination, .person, .checkin,.checkout{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.Destination-sub p{
+width: 150px;
+padding-bottom: 10px;
+
+
+}
+.person-sub, .checkin-sub,.checkout-sub{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+   
+}
+
