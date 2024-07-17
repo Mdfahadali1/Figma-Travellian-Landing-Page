@@ -43,7 +43,7 @@ height: 85px;
 
 .navDetails{
     display: flex;
-    gap: 1rem;
+    gap: 1.3rem;
     font-size: 1.3rem;
 }
 
