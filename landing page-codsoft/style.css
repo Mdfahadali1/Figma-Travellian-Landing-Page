@@ -48,7 +48,7 @@ height: 85px;
 }
 
 @media screen and (max-width:841px) {
-    ,navDetails{
+    .navDetails{
         display: none;
     }
 }
@@ -135,7 +135,7 @@ transform: scale(0);
 .heroSection{
 width: 100vw;
 max-width: 1880px;
-height: 100vh;
+height: 800px;
 position: relative;
     display: flex;
 flex-direction: column;
