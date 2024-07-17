@@ -1,20 +1,6 @@
 # Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
 
-# Other files and folders
-.settings/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# Project files, i.e. `.project`, `.html` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
-#https://www.lapa.ninja/lab/dev-space/
 https://www.figma.com/design/2dEwFvijfkwOuGnhZoBTIk/Booking-Hotel-Landing-Page-(Community)?node-id=0-1&t=4CNR3UZhGJaF2Soj-0
