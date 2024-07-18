@@ -18,7 +18,7 @@ text-decoration: none;
 
 #wrapper{
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     overflow-x: hidden;
         overflow-y: auto;
 
@@ -120,7 +120,7 @@ color: var(--white-color);
 }
 .navbtn-two:hover{
     cursor: pointer;
-   color: var(--blach-dark-);
+   background-color: var(--blach-dark-);
    transition: 200ms linear;
 }
 .hamburger{
@@ -136,7 +136,7 @@ transform: scale(0);
 
 .heroSection{
 width: 100vw;
-max-width: 1880px;
+/* max-width: 1880px; */
 height: 800px;
 position: relative;
     display: flex;
@@ -242,7 +242,8 @@ border-bottom-right-radius: 16px;
 }
 
 .Right-booknow:hover{
-    background-color: var(--gold-shade);
+ background-color: var(--blach-dark-);
+ transition: linear 200ms;
     cursor: pointer;
 }
 
@@ -273,4 +274,132 @@ padding-bottom: 10px;
     width: 150px;
    
 }
+.section2{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+flex-direction: column;
+/* justify-content: center; */
+align-items: center;
+gap: 2.5rem;
+}
 
+.descDiv{
+    width: 90%;
+display: flex;
+justify-content: space-between;
+
+}
+
+@media screen and (max-width:510px) {
+    .descDiv{
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .descDiv{
+       margin-top: 7.5rem;
+    }
+}
+
+
+.div1{
+    display: flex;
+    gap: .8rem;
+    flex-direction: column;
+}
+.div1 h3{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--blach-dark-);
+}
+
+.div1 div{
+    width: 14rem;
+    height: 3px;
+    background-color: var(--coral-color);
+}
+
+.div1 p{
+    color: var(--gray-shade);
+}
+
+.arrowsection2{
+    display: flex;
+    align-items: end;
+    gap: 1rem;
+   
+}
+.desc-imageDiv{
+    display: flex;
+gap: 1rem;
+width: 90%;
+height: 500px;
+max-width: 1200px;
+}
+.image-box{
+    margin: 0 auto;
+    position: relative;
+    color: var(--white-color);
+  display: flex;
+   gap: 1rem;
+   background-repeat: no-repeat;
+width: 400px;
+}
+
+.imgbg{
+    /* height: 100vh;
+   width: 100vw; */
+   /* margin: 0 auto; */
+
+}
+
+
+.overlapContent{
+    position: absolute;
+    bottom: 3rem;
+    left: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    flex-direction: column;
+    gap: 6.5px;
+    max-width:100% ;
+flex-shrink:1 ;
+}
+.locNSymbol{
+    display: flex;
+    gap: 2px;
+}
+
+
+@media screen and (max-width:444px) {
+    .desc-imageDiv{
+        width: 100%;
+       margin-top: -5rem;
+    }
+    .imgbg{
+        height: 400px;
+       
+    }
+    .overlapContent{
+        position: absolute;
+        bottom: 7.5rem;
+        left: 2rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: start;
+        flex-direction: column;
+        gap: 6.5px;
+        max-width:100% ;
+    flex-shrink:1 ;
+    }
+
+    .arrowsection2{
+        position: relative;
+        top: 435px;
+        justify-content: center;
+    }
+}
