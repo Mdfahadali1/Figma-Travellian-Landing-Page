@@ -431,6 +431,34 @@ margin-top: -17rem;
     gap: 2rem;
 }
 
+.card-box{
+display: flex;
+flex-direction: column;
+
+}
+
+/* .imaggebox{
+    width: 100%;
+    height: 100%;
+} */
+.summarybox{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    background-color: var(--bisque-shade);
+    height: 30vh;
+    padding: 2rem 2.5rem;
+    gap: 1rem;
+}
+
+.summarybox h3{
+    margin-top: 2rem;
+color: var(--gray-shade);    
+}
+
 @media screen and (max-width:660px) {
     
 .sepcialOfferSectionCOntainer{
