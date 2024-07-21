@@ -383,7 +383,7 @@ flex-shrink:1 ;
 
 @media screen and (max-width:444px) {
     .desc-imageDiv{
-        width: 100%;
+        width: 90%;
        margin-top: -5rem;
     }
     .imgbg{
@@ -410,6 +410,8 @@ flex-shrink:1 ;
     }
 }
 
+
+
 .section3{
     width: 90%;
 display: flex;
@@ -423,24 +425,30 @@ display: flex;
 justify-content: space-between;
 align-items: end;
 margin-top: -17rem;
+position: relative;
 }
 
 .sepcialOfferCards{
     width: 100%;
     display: flex;
     gap: 2rem;
+/* justify-content: center; */
+max-width: 1200px;
+margin: 0 auto;
 }
 
 .card-box{
 display: flex;
 flex-direction: column;
+height: 26.563rem;
+width: 27.44rem;
 
 }
 
-/* .imaggebox{
+.imaggebox{
     width: 100%;
-    height: 100%;
-} */
+    height: 60%;
+}
 .summarybox{
     display: flex;
     flex-direction: column;
@@ -449,16 +457,62 @@ flex-direction: column;
     /* align-items: center; */
     width: 100%;
     background-color: var(--bisque-shade);
-    height: 30vh;
-    padding: 2rem 2.5rem;
+    height: 100%;
+    padding-left: 2rem ;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
     gap: 1rem;
 }
+/* 444 to 340 */
 
 .summarybox h3{
     margin-top: 2rem;
 color: var(--gray-shade);    
 }
 
+/* @media screen and (max-width:444px) ,(min-width:340px) {
+ 
+    .section3{
+        margin-top: -3rem;
+    }
+    
+} */
+
+.pricingDivi{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.price-box{
+    display: flex;
+    gap: 1rem;
+    width: 30%;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+:first-child{
+}
+.price-box [first]{
+    color: var(--gray-shade);
+
+}
+
+.price-box [second]{
+    color: var(--coral-color);
+    font-size: 2rem;
+}
+
+.details{
+ text-align: center;
+    background-color: var(--coral-color);
+    padding:.7rem 1.4rem ;
+    color: var(--white-color);
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 @media screen and (max-width:660px) {
     
 .sepcialOfferSectionCOntainer{
@@ -470,3 +524,38 @@ margin-top: 15px;
 }
 }
 
+@media screen and (max-width:568px) {
+    .sepcialOfferSectionCOntainer{
+        flex-direction: column;
+        text-align: right;
+    }
+    .arrowsection3{
+        display: flex;
+        width: 100%;
+        position: relative;
+        top: 740px;
+        justify-content: center;
+    }
+    .div2{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:363px) {
+    
+    .card-box{
+      width: 90vw;
+    }
+    .price-box [second]{
+        font-size: 1.5rem;
+    }
+
+}
+
+    @media screen and (max-width:381px) {
+        .overlapContent{
+            /* position: fixed; */
+            bottom: 70px;
+        }
+    }
