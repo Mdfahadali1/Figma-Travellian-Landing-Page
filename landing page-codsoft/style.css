@@ -559,3 +559,164 @@ margin-top: 15px;
             bottom: 70px;
         }
     }
+
+    .adevn-head{
+        width: 90%;
+       padding-top: 13rem;
+         gap: 3rem;
+        display: flex;
+        flex-direction: column;
+       margin: 0 auto;
+
+    }
+
+    .advenTextDiv{
+        display: flex;
+        flex-direction: column;
+        gap: .8rem;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .advenTextDiv p {
+        color: var(--gray-shade);
+    }
+.advenTextDiv h3{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--blach-dark-);
+}
+    [dsf]{
+     
+    }
+
+    .descLineDi{
+        width: 7rem;
+    height: 3px;
+    background-color: var(--coral-color);
+    }
+
+    .advent2ndheadDiv{
+        width: 90%;
+        /* max-width: 1200px; */
+        height: fit-content;
+        display: flex;
+        gap: 2rem;
+        justify-content: space-evenly;
+        margin: 0 auto;
+align-items: flex-start;
+text-align: center;
+text-align: left;
+    }
+
+    .advent2ndheadDiv img{
+object-fit: cover;
+width: 50%;
+height: 60%; 
+    }
+
+    .advent2ndheadDivTextPart{
+      display: flex;
+      flex-direction:column ;
+     
+      margin-top: auto;
+      margin-bottom: auto;
+      gap: 1.5rem;
+      width: 50%;
+      height: 100%;
+    }
+.advent2ndheadDivTextPart h3{
+color: var(--blach-dark-);
+font-size: 3rem;
+line-height: 55px;
+}
+.advent2ndheadDivTextPart p{
+    line-height: 20px;
+    font-size: 12px;
+    color: var(--blach-dark-);
+}
+.readmore{
+    display: flex;
+    gap: .5rem;
+   width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
+.readmore p{
+    display: flex;
+    /* width: 2rem; */
+    color: var(--coral-color);
+    font-size: 14px;
+}
+.readmore img{
+    width: 1.6rem;
+    height: .9rem;
+}
+
+.readmore:hover{
+    cursor: pointer;
+ 
+}
+
+  @media screen and (max-width:768px) {
+    .advent2ndheadDiv{
+        width: 90%;
+        max-width: 1200px;
+        height: 600px;
+        display: flex;
+        margin-bottom: 2rem;
+        flex-direction: column;
+    }
+    .advent2ndheadDiv img{
+        width: 100%;
+        height: 80%;
+        object-fit: contain;
+
+    }
+    .advent2ndheadDivTextPart{
+      
+       width: 90%;
+
+    }
+
+    .readmore img{
+        width: 1.6rem;
+        height: .9rem;
+    }
+
+  }  
+
+  @media screen and (max-width:470px) {
+    .advent2ndheadDivTextPart{
+        /* margin-top: 5rem; */
+    }
+  }
+
+  .section5{
+    display:  flex;
+    width: 90%;
+    margin: 0 auto;
+ 
+justify-content: center;
+  }
+
+  .contsection5{
+    margin-top: 9rem ;
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .section5TextDIv{
+width: 100%;
+/* text-align: left; */
+display: flex;
+flex-direction:column ;
+  }
+
+  .imageCarPrice{
+    margin: 0 auto;
+    width: 100%;
+ display: flex;
+    gap: 1.5rem;
+  }
