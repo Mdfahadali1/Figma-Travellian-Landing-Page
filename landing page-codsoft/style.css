@@ -189,9 +189,8 @@ height: 50vh;
     }
 }
 .textDiv-two{
-
     color: var(--light-gray);
-    font-weight: 100;
+    font-weight: 300;
 }
 .bookingHeadDiv{
     display: flex;
@@ -221,7 +220,7 @@ height: 50vh;
     margin: 0 auto;
     display: flex;
    flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1rem;
     color: var(--blach-dark-);
     background-color: var(--white-color);
     padding: 1.5rem;
@@ -230,12 +229,13 @@ height: 50vh;
 }
 
 .Right-booknow{
-    margin: 0 auto;
+    /* margin: 0 auto; */
     display: flex;
+    gap: 15px;
     justify-content: center;
     align-items: center;
     background-color: var(--coral-color);
-    padding: 1rem 3.5rem;
+    padding: 10px 20px;
 color: var(--white-color);
 border-top-right-radius: 16px;
 border-bottom-right-radius: 16px;
@@ -250,10 +250,11 @@ border-bottom-right-radius: 16px;
 
 .Right-booknow p{
 
-font-size: 2.8rem;
+font-size: 2rem;
+width: max-content;
 }
 .Right-booknow img{
-    margin-left: 5px;
+  /
 }
 .destination, .person, .checkin,.checkout{
     display: flex;
@@ -533,7 +534,7 @@ margin-top: 15px;
         display: flex;
         width: 100%;
         position: relative;
-        top: 740px;
+        top: 800px;
         justify-content: center;
     }
     .div2{
@@ -562,7 +563,7 @@ margin-top: 15px;
 
     .adevn-head{
         width: 90%;
-       padding-top: 13rem;
+       padding-top: 17rem;
          gap: 3rem;
         display: flex;
         flex-direction: column;
@@ -657,7 +658,7 @@ line-height: 55px;
  
 }
 
-  @media screen and (max-width:768px) {
+  @media screen and (max-width:934px) {
     .advent2ndheadDiv{
         width: 90%;
         max-width: 1200px;
@@ -696,7 +697,7 @@ line-height: 55px;
     width: 90%;
     margin: 0 auto;
  
-justify-content: center;
+justify-content: space-between;
   }
 
   .contsection5{
@@ -705,13 +706,18 @@ justify-content: center;
     /* flex-direction: column; */
     width: 100%;
     justify-content: space-between;
+    gap: 6.5rem;
   }
 
   .section5TextDIv{
-width: 100%;
+width: 50%;
+justify-content: center;
+max-width: 350px;
 /* text-align: left; */
 display: flex;
 flex-direction:column ;
+gap: 1.5rem;
+position: relative;
   }
 
   .section5TextDIv h3{
@@ -727,3 +733,49 @@ flex-direction:column ;
  display: flex;
     gap: 1.5rem;
   }
+.descLineDiv{
+    width: 7rem;
+    height: 3px;
+    background-color: var(--coral-color);
+}
+
+.section5TextDIv p{
+    color: var(--gray-shade);
+    margin-bottom: 1rem;
+}
+.viewtripbox{
+    position: relative;
+   
+}
+
+.viewall{
+    width: max-content;
+    padding: .7rem 1.2rem;
+    background-color: var(--coral-color);
+    border-radius: .5rem;
+    color: var(--white-color);
+    position: absolute;
+    bottom: -54px;
+    left: 3rem;
+    z-index: 1;
+    /* top: 105%; */
+}
+
+.blackbox{
+    background-color: var(--blach-dark-);
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    bottom: -37px;
+    left: 28px;
+    /* z-index: -1; */
+}
+.graybox{
+    background-color: var(--gray-shade);
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    bottom: -71px;
+    left: 199px;
+    /* z-index: -1;  */
+}
