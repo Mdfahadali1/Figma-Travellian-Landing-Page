@@ -779,3 +779,22 @@ position: relative;
     left: 199px;
     /* z-index: -1;  */
 }
+
+.imageCarPrice{
+    display: flex;
+    width: 60%;
+    margin-left: auto;
+    justify-content: end;
+  position: relative;
+}
+
+.cardRomi, .cardBarchloni{
+    display: none;
+}
+.imgCardPrice {
+    display: flex;
+    flex-direction: column;
+}
+.guidedTour{
+    display: flex;
+}
