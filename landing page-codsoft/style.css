@@ -137,6 +137,7 @@ transform: scale(0);
 
 .heroSection{
 width: 100vw;
+/* maybe required  */
 /* max-width: 1880px; */
 height: 800px;
 position: relative;
@@ -153,16 +154,16 @@ align-content: space-between;
     z-index: -1;
     object-fit: cover;
     object-position: top;
-        overflow-x: hidden;
+    overflow-x: hidden;
 
 }
 .textDiv{
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 width: 60vw;
 height: 50vh;
-    left: 1.8rem;
-   position: absolute;
+left: 1.8rem;
+position: absolute;
     top: 6rem;
 }
 
@@ -201,9 +202,7 @@ height: 50vh;
 }
 @media screen and (max-width:671px) {
     .bookingHeadDiv{
-        /* margin-top: 2rem; */
-        flex-direction: column;
-      /* max-height: 569px; */
+   flex-direction: column;
     }
     .Right-booknow{
       width: 100%;
