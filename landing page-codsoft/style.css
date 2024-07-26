@@ -701,7 +701,8 @@ justify-content: space-between;
   }
 
   .contsection5{
-    margin-top: 6rem ;
+    /* margin-top: 6rem ; */
+    height: 700px;
     display: flex;
     /* flex-direction: column; */
     width: 103%;
@@ -784,6 +785,7 @@ position: relative;
 .imageCarPrice{
     display: flex;
     width: 60%;
+    height: fit-content;
     margin-left: auto;
     justify-content: end;
     /* align-items: center; */
@@ -884,6 +886,43 @@ margin-top: 5rem;
     gap: 2rem;
 }
 
+}
 
-   
+.section6{
+    width: 90%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 3rem;
+}
+
+.section6TextANd-Navigations{
+    margin-top: 3rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.destinationGallaryBOx{
+display: flex;
+flex-direction: column;
+gap: 1rem;
+color: var(--blach-dark-);
+}
+
+.destinationGallaryBOx p{
+    color: var(--gray-shade);
+}
+
+.destinationGallaryBOx h3{
+
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.arrowSection6{
+    display: flex;
+gap: 2rem;
+align-items: end;
 }
