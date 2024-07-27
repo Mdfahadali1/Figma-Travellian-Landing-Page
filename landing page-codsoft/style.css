@@ -926,3 +926,17 @@ color: var(--blach-dark-);
 gap: 2rem;
 align-items: end;
 }
+
+.imageSection{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+
+.imageSection{
+    width: ;
+}
