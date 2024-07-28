@@ -703,7 +703,8 @@ justify-content: space-between;
   .contsection5{
     /* margin-top: 6rem ; */
     height: 700px;
-    display: flex;
+  
+  display: flex;
     /* flex-direction: column; */
     width: 103%;
     justify-content: space-between;
@@ -937,6 +938,7 @@ align-items: end;
 }
 
 
-.imageSection{
-    width: ;
+.imageSection img{
+    width: 20rem;
+    height: 20rem;
 }
