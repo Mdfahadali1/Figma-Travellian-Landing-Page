@@ -31,11 +31,11 @@ text-decoration: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
-color: var(--white-color);
-height: 85px;
-  width: 90%;
+    color: var(--white-color);
+    height: 85px;
+    width: 90%;
     z-index:10;
-        margin: 0 auto;
+    margin: 0 auto;
 
 }
 
@@ -137,10 +137,9 @@ transform: scale(0);
 
 .heroSection{
 width: 100vw;
-/* max-width: 1880px; */
 height: 800px;
 position: relative;
-    display: flex;
+display: flex;
 flex-direction: column;
 justify-content: center;
 align-content: space-between;
@@ -153,7 +152,7 @@ align-content: space-between;
     z-index: -1;
     object-fit: cover;
     object-position: top;
-        overflow-x: hidden;
+    overflow-x: hidden;
 
 }
 .textDiv{
@@ -161,9 +160,9 @@ align-content: space-between;
   flex-direction: column;
 width: 60vw;
 height: 50vh;
-    left: 1.8rem;
-   position: absolute;
-    top: 6rem;
+left: 1.8rem;
+position: absolute;
+top: 6rem;
 }
 
 .textDiv-one{
@@ -178,7 +177,7 @@ height: 50vh;
     .textDiv{
         position: absolute;
         top: 1rem;
-        /* margin-bottom:1rem ; */
+       
     }
   
 }
@@ -201,10 +200,8 @@ height: 50vh;
 }
 @media screen and (max-width:671px) {
     .bookingHeadDiv{
-        /* margin-top: 2rem; */
         flex-direction: column;
-      /* max-height: 569px; */
-    }
+      }
     .Right-booknow{
       width: 100%;
       border-bottom-left-radius: 16px;
@@ -229,7 +226,7 @@ height: 50vh;
 }
 
 .Right-booknow{
-    /* margin: 0 auto; */
+  
     display: flex;
     gap: 15px;
     justify-content: center;
@@ -281,15 +278,14 @@ padding-bottom: 10px;
     height: 1000px;
     display: flex;
 flex-direction: column;
-/* justify-content: center; */
 align-items: center;
 gap: 2.5rem;
 }
 
 .descDiv{
     width: 90%;
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 
 }
 
@@ -340,7 +336,7 @@ justify-content: space-between;
    
 }
 .desc-imageDiv{
-    display: flex;
+ display: flex;
 gap: 1rem;
 width: 90%;
 height: 500px;
