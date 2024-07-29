@@ -1059,6 +1059,8 @@ gap: 1rem;
     background-color: var(--light-gray);
     border-radius: 1rem;
     padding: 1.6rem;
+    /* flex: 1 1 30%;
+    min-width: 0; */
 }
 
 .cardman-img{
@@ -1069,7 +1071,7 @@ border-radius: 100%;
 
 @media screen and (max-width:994px) {
     .section-7{
-        top: 300%;
+        top: 40rem;
 
     }
 }
@@ -1077,7 +1079,7 @@ border-radius: 100%;
 
 @media screen and (max-width:943px) {
     .section-7{
-        top: 432%;
+        top:80rem;
 
     }
 }
