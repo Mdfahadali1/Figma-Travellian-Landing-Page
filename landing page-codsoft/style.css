@@ -21,10 +21,9 @@ text-decoration: none;
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
-        overflow-y: auto;
-
-  position: relative;
-  margin: 0 auto;
+    overflow-y: auto;
+    position: relative;
+    margin: 0 auto;
 }
 
 .navHead{
