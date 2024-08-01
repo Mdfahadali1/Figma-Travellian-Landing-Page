@@ -351,13 +351,6 @@ max-width: 1200px;
 width: 400px;
 }
 
-.imgbg{
-    /* height: 100vh;
-   width: 100vw; */
-   /* margin: 0 auto; */
-
-}
-
 
 .overlapContent{
     position: absolute;
@@ -459,20 +452,13 @@ width: 27.44rem;
     padding-bottom: 1rem;
     gap: 1rem;
 }
-/* 444 to 340 */
+
 
 .summarybox h3{
     margin-top: 2rem;
 color: var(--gray-shade);    
 }
 
-/* @media screen and (max-width:444px) ,(min-width:340px) {
- 
-    .section3{
-        margin-top: -3rem;
-    }
-    
-} */
 
 .pricingDivi{
     display: flex;
