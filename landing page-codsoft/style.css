@@ -249,9 +249,7 @@ border-bottom-right-radius: 16px;
 font-size: 2rem;
 width: max-content;
 }
-.Right-booknow img{
-  /
-}
+
 .destination, .person, .checkin,.checkout{
     display: flex;
     flex-direction: column;
